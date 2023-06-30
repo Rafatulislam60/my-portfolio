@@ -14,7 +14,7 @@ const Info = () => {
         <i className="bx bx-briefcase-alt about_icon"></i>
 
         <h3 className="about_title">Completed</h3>
-        <span className="about_subtitle">10+ Projects</span>
+        <span className="about_subtitle">15+ Projects</span>
       </div>
 
       <div className="about_box">

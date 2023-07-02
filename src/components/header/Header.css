@@ -15,7 +15,12 @@
   column-gap: 1rem;
 }
 
-.nav_logo,
+.nav_logo {
+  width: 70px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
 .nav_toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -114,6 +119,10 @@
   .nav_close,
   .nav_toggle {
     display: block;
+  }
+
+  .nav_logo {
+    margin-bottom: 20px;
   }
 }
 

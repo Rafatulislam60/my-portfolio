@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../../assets/RF.png";
 import "./Header.css";
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav_logo">
-          Rafat
+          <img src={logo} alt="" />
         </a>
 
         <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>

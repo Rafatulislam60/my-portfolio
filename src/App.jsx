@@ -8,6 +8,7 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 import Service from "./components/service/Service";
 import Skills from "./components/skills/Skills";
 import Testimonials from "./components/testimonials/Testimonials";
+import Work from "./components/work/Work";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <About />
         <Skills />
         <Service />
+        <Work />
         <Testimonials />
         <Contact />
       </main>

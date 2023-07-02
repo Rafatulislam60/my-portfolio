@@ -1,11 +1,14 @@
 import React from "react";
+import logo from "../../assets/Rafat-100.png";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <h1 className="footer_title">Rafat</h1>
+        <div className="footer_title">
+          <img src={logo} alt="" />
+        </div>
 
         <ul className="footer_list">
           <li>

@@ -39,7 +39,7 @@ const Contact = () => {
                 href="mailto:rafatulislam67@gmail.com"
                 className="contact_button"
               >
-                Write me{" "}
+                Write me a email{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 href="https://wa.me/qr/LQF2OF4M6LFHC1"
                 className="contact_button"
               >
-                Write me{" "}
+                Send a message{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/rafatul-islam-07363219b"
                 className="contact_button"
               >
-                Write me{" "}
+                Send a message{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>

@@ -14,7 +14,7 @@ const Service = () => {
       <span className="section__subtitle">What I offer</span>
 
       <div className="services_container container grid">
-        <div className="services_content">
+        <div data-aos="fade-down-right" className="services_content">
           <div>
             <i className="uil uil-web-grid services_icon"></i>
             <h3 className="services_title">
@@ -75,7 +75,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="services_content">
+        <div data-aos="fade-down" className="services_content">
           <div>
             <i className="uil uil-arrow services_icon"></i>
             <h3 className="services_title">
@@ -136,7 +136,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="services_content">
+        <div data-aos="fade-down-left" className="services_content">
           <div>
             <i className="uil uil-edit services_icon"></i>
             <h3 className="services_title">

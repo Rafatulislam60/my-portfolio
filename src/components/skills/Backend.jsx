@@ -2,7 +2,7 @@ import React from "react";
 
 const Backend = () => {
   return (
-    <div className="skills_content">
+    <div data-aos="fade-left" className="skills_content">
       <h3 className="skills_title">Backend Developer</h3>
 
       <div className="skills_box">

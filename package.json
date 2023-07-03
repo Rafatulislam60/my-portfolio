@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "aos": "^2.3.4",
     "boxicons": "^2.1.4",
     "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.5",
     "react-dom": "^18.2.0",
-    "swiper": "^9.4.1"
+    "swiper": "^9.4.1",
+    "typed.js": "^2.0.16"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

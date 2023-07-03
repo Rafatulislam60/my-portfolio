@@ -27,7 +27,8 @@ const Contact = () => {
           <h3 className="contact_title">Talk to me</h3>
 
           <div className="contact_info">
-            <div className="contact_card">
+            <div data-aos="fade-up"
+        data-aos-duration="2000" className="contact_card">
               <i className="bx bx-mail-send contact_card-icon"></i>
 
               <h3 className="contact_card-tile">Email</h3>
@@ -44,7 +45,8 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact_card">
+            <div data-aos="fade-up"
+        data-aos-duration="2500" className="contact_card">
               <i className="bx bxl-whatsapp contact_card-icon"></i>
 
               <h3 className="contact_card-tile">Whatsapp</h3>
@@ -59,7 +61,8 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact_card">
+            <div data-aos="fade-up"
+        data-aos-duration="3000" className="contact_card">
               <i className="bx bxl-linkedin contact_card-icon"></i>
 
               <h3 className="contact_card-tile">LinkedIn</h3>
@@ -82,7 +85,8 @@ const Contact = () => {
           <h3 className="contact_title">Write me your projects.</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact_form">
-            <div className="contact_form-div">
+            <div data-aos="fade-up"
+        data-aos-duration="2000" className="contact_form-div">
               <label className="contact_form-tag">Name</label>
               <input
                 type="text"
@@ -92,7 +96,8 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact_form-div">
+            <div data-aos="fade-up"
+        data-aos-duration="2500" className="contact_form-div">
               <label className="contact_form-tag">Email</label>
               <input
                 type="email"
@@ -102,7 +107,8 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact_form-div contact_form-area">
+            <div data-aos="fade-up"
+        data-aos-duration="3000" className="contact_form-div contact_form-area">
               <label className="contact_form-tag">Project</label>
               <textarea
                 name="project"

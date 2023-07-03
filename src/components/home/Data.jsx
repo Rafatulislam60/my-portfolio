@@ -1,4 +1,23 @@
+import React from "react";
+import Typed from "typed.js";
+
 const Data = () => {
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["MERN Stack Web Developer", "Frontend Web Developer"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1500,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className="home_data">
       <h1 className="home_title">
@@ -53,13 +72,15 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home_subtitle">MERN Stack Web Developer</h3>
+
+      <span ref={el} className="home_subtitle multiText" />
+
       <p className="home_description">
         I'm creative MERN stack web developer based in Chattogram, Bangladesh
         and I'm very passionate and dedicated to my work.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex" data-aos="zoom-in-up">
         Say Hello
         <svg
           className="button__icon"

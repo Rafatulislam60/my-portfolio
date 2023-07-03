@@ -10,7 +10,7 @@ const Home = () => {
         <div className="home_content grid">
           <Social></Social>
 
-          <div className="home_img"></div>
+          <div data-aos="zoom-in-left" className="home_img"></div>
 
           <Data />
         </div>
